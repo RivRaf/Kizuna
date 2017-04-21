@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:background="@drawable/user"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:textSize="@dimen/descTextSize"
+            android:textColor="@color/color03"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etUserIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/inputtextsize"
+        android:textColor="@android:color/black"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/marginlogin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/key"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña:"
+            android:textSize="@dimen/descTextSize"
+            android:textColor="@color/color03"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etPassIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/inputtextsize"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/marginlogin" />
+    <TextView
+        android:id="@+id/flBtnIng"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/in"
+        android:text="Sign In"
+        android:gravity="center"
+        android:textColor="@color/color03"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

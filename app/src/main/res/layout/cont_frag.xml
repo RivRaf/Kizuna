@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnd2">
+
+    <ListView
+        android:id="@+id/lvContacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"></ListView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp">
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/cir"
+            android:scaleType="center"
+            android:src="@drawable/add" />
+
+        <FrameLayout
+            android:layout_width="42dp"
+            android:layout_height="42dp">
+
+            <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/remove"
+            android:background="@drawable/cir"
+            android:scaleType="center"/>
+            <ImageButton
+            android:id="@+id/btnDelete1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/remove"
+            android:background="@drawable/cir1"
+            android:visibility="invisible"
+            android:scaleType="center"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

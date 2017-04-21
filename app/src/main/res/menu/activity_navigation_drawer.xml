@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/icon_group">
+        <item
+            android:id="@+id/pagPrin"
+            android:icon="@drawable/main"
+            android:title="Pagina Principal"
+            android:enabled="false"/>
+        <item
+            android:id="@+id/regHist"
+            android:icon="@drawable/chart"
+            android:title="Registro Histórico" />
+        <item
+            android:id="@+id/cont"
+            android:icon="@drawable/contacts"
+            android:title="Contactos SOS" />
+        <item
+            android:id="@+id/config"
+            android:icon="@drawable/edit"
+            android:title="Detalles de usuario" />
+
+    </group>
+
+    <item android:title="Salir">
+        <menu>
+            <item
+            android:id="@+id/logout"
+            android:icon="@drawable/exit"
+            android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
